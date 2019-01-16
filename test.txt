@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is jaydev from ccrest'
+                     echo 'Hi, this is Zulaikha from edureka'
                  }
                  }
                  stage('Two') {
@@ -29,7 +29,7 @@ pipeline {
                            }
                            }
                             stage('Integration test') {
-                              agent {
+                              
                               steps {
                                 echo "Running the integration test..."
                               }
@@ -37,5 +37,4 @@ pipeline {
                            }
                            }
               }
-}
 }
