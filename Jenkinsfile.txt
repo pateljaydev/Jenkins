@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Creating ec2 instance') {
+            steps {
+                sh '/usr/bin/ansible-playbook /etc/ansible/instance.yml'
+            }
+        }
+    }
+}
